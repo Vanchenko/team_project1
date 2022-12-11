@@ -85,4 +85,34 @@ header .container {
     text-decoration: underline;
 }
 
+.hero-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image-box {
+    border: 26px solid var(--yellow-main);
+    border-radius: 50%;
+}
+
+.hero-header {
+    width: 502px;
+    margin-bottom: 28px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #2C2C2C;
+}
+
+.description {
+font-size: 16px;
+line-height: 1.5;
+}
+
+.description.hero {
+    width: 502px;
+    margin-bottom: 46px;
+}
+
 
