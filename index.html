@@ -4,33 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kalam&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <a href="/"
-        ><img width="66" height="52" src="./img/logo.svg" alt="Logotype"
-      /></a>
-      <nav>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/">About</a>
-          </li>
-          <li>
-            <a href="/">Service</a>
-          </li>
-          <li>
-            <a href="/">Menu</a>
-          </li>
-          <li>
-            <a href="/">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <button type="button">Order Now</button>
+      <div class="container">
+        <a class="logo" href="/">
+          <img width="66" height="52" src="./img/logo.svg" alt="Logotype"
+        /></a>
+        <div class="header-wrap">
+          <nav>
+            <ul class="list-menu list">
+              <li class="list-item">
+                <a class="menu-link link" href="/">Home</a>
+              </li>
+              <li class="list-item">
+                <a class="menu-link link"href="/">About</a>
+              </li>
+              <li class="list-item">
+                <a class="menu-link link" href="/">Service</a>
+              </li>
+              <li class="list-item">
+                <a class="menu-link link" href="/">Menu</a>
+              </li>
+              <li class="list-item">
+                <a class="menu-link link" href="/">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="button-header" type="button">Order Now</button>
+        </div>
+    </div>
     </header>
 
     <main>
